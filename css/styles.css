@@ -1,0 +1,57 @@
+
+/*selector {
+    propiedad1: valor;
+    propiedad2: valor;
+    propiedad2: valor;
+}*/
+
+/* Modificar por Etiquetas o Tags */
+h1{
+    color: blue;
+    text-align: center;
+}
+body {
+    color: brown;
+}
+
+h1{
+    color: blueviolet
+}
+/* Ruta Generica para todos los "a" */
+a{
+    text-decoration: none;
+}
+
+/* Ruta especifica para los "li" dentro de la navegacion */
+header nav ul a li{
+    color: blue;
+    list-style: none;
+}
+
+/* Modificar selectores por su ID */
+#item_de_lista{
+    color: blueviolet;
+    list-style: square;
+    font-size: 30px;
+}
+
+/* Modificar selectores por su Clase */
+.logotipo{
+    width: 80px; /*Ancho*/
+    height: 80px;/*Alto*/
+}
+
+.texto_verde{
+    color: green;
+}
+/* Ruta especifica para los "h2.texto_verde" dentro de un div */
+section div h2.texto_verde {
+    font-size: 18px;
+}
+
+.parrafo_principal{
+    font-size: 12px;
+    text-align: justify;
+    color: #013954;
+    line-height: 20px;
+}
