@@ -136,6 +136,10 @@ Aquí verás que se añade un código como respuesta a la terminal. Ahora para c
 
 Listo! hemos terminado completamente.
 
+[Click para ver el Video](https://www.youtube.com/watch?v=tH15EPkRc3w)
+
+
+
 -----
 
 # Incluyendo CSS a nuestro proyecto - Clase 02
