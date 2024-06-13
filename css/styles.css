@@ -5,6 +5,12 @@
     propiedad2: valor;
 }*/
 
+/* Format */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* Modificar por Etiquetas o Tags */
 h1{
     color: blue;
@@ -53,5 +59,22 @@ section div h2.texto_verde {
     font-size: 12px;
     text-align: justify;
     color: #013954;
-    line-height: 20px;
+    line-height: 18px;
+    /* margin: 20px 10px; */
+    /* 
+    margin-top: 25px;
+    margin-bottom: 12px;
+    margin-left: 8px;
+    margin-right: 15px; 
+    */
+    margin: 25px 15px 12px 8px;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
 }
