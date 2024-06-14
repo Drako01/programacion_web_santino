@@ -142,7 +142,7 @@ Listo! hemos terminado completamente.
 
 -----
 
-# Incluyendo CSS a nuestro proyecto - Clase 02
+# Incluyendo CSS a nuestro proyecto - Clase 03
 
 #### Objetivos de la clase:
 - Comprender la sintaxis de CSS.
