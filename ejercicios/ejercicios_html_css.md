@@ -52,3 +52,8 @@
 38. Estiliza una tabla para que tenga filas con colores alternos y una fila de encabezado fija.
 39. Usa `@media queries` para cambiar el diseño de la página en dispositivos móviles.
 40. Implementa un sistema de pestañas (tabs) donde al hacer clic en una pestaña se muestre contenido diferente.
+
+
+---
+
+## [Autor: Alejandro Di Stefano](https://github.com/Drako01)
