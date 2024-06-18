@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,74 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
     <header>
         <!-- Header se encarga de la Navegacion -->
         <nav>
             <ul>
-                <a href="index.html"><li>Inicio</li></a>
-                <a href="productos.html"><li>Productos</li></a>
-                <a href="contacto.html"><li>Contacto</li></a>
+                <a href="index.html">
+                    <li>Inicio</li>
+                </a>
+                <a href="productos.html">
+                    <li>Productos</li>
+                </a>
+                <a href="contacto.html">
+                    <li>Contacto</li>
+                </a>
             </ul>
         </nav>
     </header>
     <main>
         <!-- Aloja todo el contenido -->
+        <div class="caja__productos"></div>
+        <section class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            Nombre
+                        </th>
+                        <th>
+                            Apellido
+                        </th>
+                        <th class="table__email">
+                            Email
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Santino
+                        </td>
+                        <td>
+                            Buttazzoni
+                        </td>
+                        <td>
+                            santibutazzoni@gmail.com
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Alejandro
+                        </td>
+                        <td>
+                            Di Stefano
+                        </td>
+                        <td>
+                            alejandro@gmail.com
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
     </main>
     <footer>
         <!-- Tambien hace de navegacion / Informacion -->
         <p>Desarrollado por Santino | 2024</p>
     </footer>
 </body>
+
 </html>

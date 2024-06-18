@@ -10,18 +10,18 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <!-- Header se encarga de la Navegacion -->
-        <nav>
+        <nav class="header__navigation">
             <!-- Lista desordenada -->
-            <ul>
-                <a href="index.html">
+            <ul class="header__navigation__ul">
+                <a class="header__navigation__ul__a" href="index.html">
                     <li class="texto_verde">Inicio</li>
                 </a>
-                <a href="productos.html">
+                <a class="header__navigation__ul__a"href="productos.html">
                     <li>Productos</li>
                 </a>
-                <a href="contacto.html">
+                <a class="header__navigation__ul__a"href="contacto.html">
                     <li class="texto_verde">Contacto</li>
                 </a>
             </ul>
@@ -36,6 +36,10 @@
         </ol>
         <section>
 
+            <div class="caja">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3gzrM4B6KbiiMPJeoWutngPtnsh60P74Sfg&s"
+                    alt="Fernet Branca" class="caja__imagen">
+            </div>
             <p class="parrafo_principal">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, culpa nulla?
                 Totam, soluta. Quas quibusdam numquam quaerat, ipsam iste tempora ea sed tenetur vel nulla incidunt amet
                 quisquam laboriosam atque.
@@ -74,15 +78,15 @@
                 Hic, cumque explicabo iusto rem, nihil officia quisquam neque vel eius, eaque officiis id mollitia
                 debitis maiores minus nemo tempora modi qui dolorem eveniet culpa veritatis ullam perspiciatis.
                 Recusandae, laboriosam?</p>
-            <section>                
-                <div>
-                    <h2 class="texto_verde">Fernet Branca</h2>
+            <section class="bloque__imagenes">                
+                <div class="bloque__imagenes__div">
+                    <h2 class="bloque__imagenes__h2 texto_verde">Fernet Branca</h2>
                 </div>
                 <!-- <img src="./img/images.jpeg" alt="Fernet Branca">  --><!-- Imagen Interna-->
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3gzrM4B6KbiiMPJeoWutngPtnsh60P74Sfg&s"
-                    alt="Fernet Branca" class="logotipo"> <!-- Imagen Externa-->
+                    alt="Fernet Branca" class="bloque__imagenes__img bloque__imagenes__img--modified"> <!-- Imagen Externa-->
                 <h2 class="texto_verde">GitHub</h2>
-                <img src="./img/github.png" alt="GitHub" class="logotipo"><!-- Imagen Interna-->
+                <img src="./img/github.png" alt="GitHub" class="bloque__imagenes__img"><!-- Imagen Interna-->
             </section>
         </section>
     </main>
