@@ -1,4 +1,3 @@
-
 /*selector {
     propiedad1: valor;
     propiedad2: valor;
@@ -12,24 +11,26 @@
 }
 
 /* Modificar por Etiquetas o Tags */
-h1{
+h1 {
     color: blue;
     text-align: center;
 }
+
 body {
     color: brown;
 }
 
-h1{
+h1 {
     color: blueviolet
 }
+
 /* Ruta Generica para todos los "a" */
-a{
+a {
     text-decoration: none;
 }
 
 /* Ruta especifica para los "li" dentro de la navegacion */
-header nav ul a li{
+header nav ul a li {
     color: blue;
     list-style: none;
     display: inline-block;
@@ -38,7 +39,7 @@ header nav ul a li{
 }
 
 /* Modificar selectores por su ID */
-#item_de_lista{
+#item_de_lista {
     color: blueviolet;
     list-style: square;
     font-size: 30px;
@@ -46,15 +47,16 @@ header nav ul a li{
 
 
 
-.texto_verde{
+.texto_verde {
     color: green;
 }
+
 /* Ruta especifica para los "h2.texto_verde" dentro de un div */
 section div h2.texto_verde {
     font-size: 18px;
 }
 
-.parrafo_principal{
+.parrafo_principal {
     font-size: 14px;
     text-align: justify;
     color: #013954;
@@ -80,12 +82,14 @@ h2 {
 
 /* Uso de BEM */
 /* Modificar selectores por su Clase */
-.bloque__imagenes__img{
-    width: 80px; /*Ancho*/
-    height: 80px;/*Alto*/
+.bloque__imagenes__img {
+    width: 80px;
+    /*Ancho*/
+    height: 80px;
+    /*Alto*/
 }
 
-.bloque__imagenes__img--modified{
+.bloque__imagenes__img--modified {
     /* width: 80%; */
     width: 5rem;
 }
@@ -100,15 +104,17 @@ h2 {
     margin: 2rem;
     border: #013954 2px solid;
     border-radius: 15%;
-    /* overflow: hidden;  */ /*Si hay un Sobrante lo esconde*/
+    /* overflow: hidden;  */
+    /*Si hay un Sobrante lo esconde*/
 }
-.caja__imagen{
+
+.caja__imagen {
     width: 100%;
     height: 100%;
     border-radius: 15%;
 }
 
-.caja__productos{
+.caja__productos {
     width: 20rem;
     height: 20rem;
     background-color: #ffff00;
@@ -124,21 +130,74 @@ h2 {
 
 /* Display */
 
-footer p{
+footer p {
     font-size: 24px;
     text-align: center;
 }
-table{
+
+table {
     margin: 2rem;
 }
-table, th, td {
+
+table,
+th,
+td {
     border: 1px solid #013954;
 }
 
-th, td {
+th,
+td {
     padding: 5px;
 }
 
-.table__email{
+.table__email {
     width: 20rem;
+}
+
+/* Flexbox */
+
+.padre {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* width: 80%;
+    margin-left: 10%;
+    margin-right: 10%; */
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 0;
+}
+
+.padre .hijos{
+    width: 120px;
+    height: 120px;
+    background-color: #d6f654;
+    border: 1px solid #013954;
+    box-sizing: border-box;
+    margin: 1rem;
+    /* Esto es para aliniear a los nietos */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.padre .hijos .nietos{
+    width: 30px;
+    height: 30px;
+    background-color: #013954;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.border_radius{
+    width: 200px;
+    height: 200px;
+    background-color: #21d900;
+    border-radius: 50% 50% 0% 50%;
+    margin: 4rem;
+    margin-left: auto;
+    margin-right: auto;
 }
