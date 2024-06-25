@@ -177,6 +177,7 @@ td {
     border: 1px solid #013954;
     box-sizing: border-box;
     margin: 1rem;
+    border-radius: 5%;
     /* Esto es para aliniear a los nietos */
     display: flex;
     flex-wrap: wrap;
@@ -200,4 +201,128 @@ td {
     margin: 4rem;
     margin-left: auto;
     margin-right: auto;
+}
+
+.contenedor__img_texto{
+    display: inline-block;
+    position: relative;
+}
+
+.contenedor__img_texto img {
+    width: 100%;
+    height: auto;
+}
+
+.texto-superpuesto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: rgb(243, 231, 0);
+    font-size: 50px;
+    background-color: #0138541a;
+}
+
+.contenedor_boton{
+    margin: 4rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_boton .boton-degradado{
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    border-radius: .25rem;
+    cursor: pointer;
+    padding: 1rem .25rem;
+    background: linear-gradient(to right, #013954, #3cf0e4);
+    color: white;
+    font-size: 1rem;
+    box-shadow: 5px 5px 20px #013954;
+}
+
+.contenedor_boton .boton-degradado:hover{
+    background: linear-gradient(to left, #013954, #3cf0e4);
+    box-shadow: none;
+}
+
+.contenedor-padre{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.hijos-flex{
+    width: 100px;
+    height: 100px;
+    background-color: #2a0154;
+    color: white;
+    font-size: 2rem;
+}
+
+.contenedor_boton h4{
+    font-size: 4rem;
+    font-family: "Roboto";
+    font-weight: 900;
+    text-shadow: 2px 2px 8px #272727;
+}
+
+.contenedor__form{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor__form .formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+    border: 1px solid #013954;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 8px #01395458;
+}
+
+.contenedor__form .formulario .formulario-grupo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor__form .formulario .formulario-grupo label{
+    margin-bottom: .5rem;
+    color: #013954;
+    font-family: "Roboto";
+}
+
+.contenedor__form .formulario .formulario-grupo input,
+.contenedor__form .formulario .formulario-grupo textarea {
+    border: none;
+    background: #27272713;
+    padding: .5rem;
+    border-radius: .25rem;
+    width: 90%;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.contenedor__form .formulario button {
+    margin-top: 1rem;
+    height: 3rem;
+    border: none;
+    border-radius: .25rem;
+    cursor: pointer;
+    padding: 1rem .25rem;
+    background: linear-gradient(to right, #013954, #3cf0e4);    color: white;
+    font-size: 1rem;
+    box-shadow: 5px 5px 10px #4848487c;
+}
+
+.contenedor__form .formulario button:hover{
+    box-shadow: none;
+    background: linear-gradient(to left, #013954, #3cf0e4);
 }
