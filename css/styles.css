@@ -21,7 +21,8 @@ body {
 }
 
 h1 {
-    color: blueviolet
+    color: #000764;
+    font-family: "Roboto";
 }
 
 /* Ruta Generica para todos los "a" */
@@ -31,11 +32,13 @@ a {
 
 /* Ruta especifica para los "li" dentro de la navegacion */
 header nav ul a li {
-    color: blue;
+    color: #ffffff;
     list-style: none;
-    display: inline-block;
+    font-family: "Roboto";
+    font-size: 1.2rem;
+    /* display: inline-block;
     padding: 5px;
-    margin: 5px;
+    margin: 5px; */
 }
 
 /* Modificar selectores por su ID */
@@ -326,3 +329,107 @@ td {
     box-shadow: none;
     background: linear-gradient(to left, #013954, #3cf0e4);
 }
+
+/* Clase 07 */
+
+
+.nav{
+    display: flex;
+    padding: 0 2rem;
+    background-color: #013954;  
+    justify-content: center; 
+    align-items: center; 
+    height: 3rem;    
+}
+
+.nav ul{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.footer{
+    position: sticky;
+    bottom: 0;
+    background-color: #013954;
+    color: white;
+    height: 3rem;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+}
+
+/* GRID */
+
+.container_grid{
+    display: grid;
+    grid-template-areas: 
+        "titulo_grid titulo_grid titulo_grid titulo_grid"
+        "content content content sidebar"
+        "sidebar_izq extra_content extra_content sidebar"
+        "sidebar_izq extra_content extra_content sidebar"
+        "imagen_grid imagen_grid imagen_grid sidebar"
+        "imagen_grid imagen_grid imagen_grid sidebar"
+        "content_dos content_dos content_dos content_dos"
+        "content_dos content_dos content_dos content_dos"
+    ;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.titulo_grid{
+    grid-area: titulo_grid;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: #007b8b;
+    color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0 2px 4px #01395480;
+}
+.sidebar_izq{
+    grid-area: sidebar_izq;
+    background-color: #5b2c7f;
+    color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0 2px 4px #01395480;
+}
+.content{
+    grid-area: content;
+    background-color: #c8c8c8;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0 2px 4px #01395480;
+}
+
+.extra_content{
+    grid-area: extra_content;
+    background-color: #77b0bf;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0 2px 4px #01395480;
+}
+.content_dos{
+    grid-area: content_dos;
+    background-color: #01181f;
+    color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0 2px 4px #01395480;
+}
+.imagen_grid{
+    grid-area: imagen_grid;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0 2px 4px #01395480;
+}
+.imagen_grid img{
+    width: 100%;
+}
+
