@@ -50,9 +50,9 @@ header nav ul a li {
 
 
 
-.texto_verde {
+/* .texto_verde {
     color: green;
-}
+} */
 
 /* Ruta especifica para los "h2.texto_verde" dentro de un div */
 section div h2.texto_verde {
@@ -302,6 +302,7 @@ td {
     font-family: "Roboto";
 }
 
+.contenedor__form .formulario .formulario-grupo select,
 .contenedor__form .formulario .formulario-grupo input,
 .contenedor__form .formulario .formulario-grupo textarea {
     border: none;
@@ -331,6 +332,16 @@ td {
     background: linear-gradient(to left, #013954, #3cf0e4);
 }
 
+.cheq{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+    height: 1.2rem;
+    margin-top: .5rem;
+}
+.cheq label {
+    min-width: 6rem;
+}
 /* Clase 07 */
 
 
@@ -540,7 +551,60 @@ td {
     margin: 1rem;
 }
 
+.card__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Pseudoclases */
 
+/* Por ejemplo :hover */
+
+/*
+
+selector:pseudoclase {
+    propiedad: valor;
+    propiedad: valor;
+    propiedad: valor;
+    propiedad: valor;
+    propiedad: valor;
+}
+
+*/
+
+/* a:visited {
+    color: #271039;
+    background-color: #bc0101;
+}
+a:link{
+    color: #21d900;
+    background-color: #c9c0c0;
+}
+a:active{
+    color: #ce0948;
+    background-color: #403535;
+} */
+
+/*
+.padre .hijo::nth-child(1){ Se aplican sobre el 1er Hijo
+    propiedad: valor;
+    propiedad: valor;
+    propiedad: valor;
+    propiedad: valor;
+    propiedad: valor;
+}
+
+*/
+
+.contenedor__productos .card:nth-child(1){
+    background-color: #000764;
+}
+.contenedor__productos .card:nth-child(2){
+    background-color: #686eb9;
+}
+.contenedor__productos .card:nth-child(3){
+    background-color: #7a09a7;
+}
 /* Responsive */
 
 /*
@@ -557,11 +621,20 @@ td {
 @media screen and (min-width: 1201px) {
     body {
         background-color: #ffffff;
+        color: #000764;
     }
 }
 
 
 /* Para pantallas de un Ancho Inferior o igual a 1200px */
+
+
+@media (max-width: 1200px) and (min-width: 1000px) {
+    body{
+        background-color: #000764;
+    }
+}
+
 @media screen and (max-width: 1200px) {
 
     .nav,
@@ -581,6 +654,7 @@ td {
         background-color: #b4aeae;
     }
 }
+
 
 @media screen and (max-width: 1024px) {
     .container_grid {
@@ -657,6 +731,7 @@ td {
     p {
         font-size: .8rem;
     }
+
     h2 {
         font-size: 1.5rem;
         margin-bottom: 1rem;
