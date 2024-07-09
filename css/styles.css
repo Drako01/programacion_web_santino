@@ -605,6 +605,82 @@ a:active{
 .contenedor__productos .card:nth-child(3){
     background-color: #7a09a7;
 }
+
+
+/* Clase 11 - Transformaciones y Animaciones */
+
+.container__efects{
+    perspective: 800px;
+    display: flex;
+    justify-content: center;
+    max-width: 1080px;
+    align-items: center;
+    margin: 4rem auto;  
+    min-height: 650px;  
+}
+
+.container__efects .elemento .elemento__img{
+    width: 100%;
+}
+
+/* Traslacion */
+/* .container__efects .elemento:hover{
+    transform: translate(50px, 50px);
+} */
+
+/* Rotacion en sentido horario */
+.container__efects .elemento:hover{
+    /* Origen de la transformacion */
+    /* transform-origin: center; */
+    /* Movimiento de Rotacion */
+    /* transform: rotate(-45deg); */
+}
+
+/* Escalas */
+/* Porcentajes 1 = 100%, 2 = 200%, 1.5 = 150%*/
+.container__efects .elemento:hover{
+    /* transform: scale(total);  */
+    /* transform: scale(1.5);  */
+    /* transform: scale(ancho, alto);  */
+    /* transform: scale(1.5, 1.8);  */
+}
+
+.container__efects .elemento:hover{
+    /* transform-origin: left top;  */
+    /* transform: skew(total); */
+    /* transform: skew(30deg); */
+    /* transform: skew(ancho, alto); */
+    /* transform: skew(50deg, 10deg); */
+}
+
+/* .container__efects .elemento:hover{
+    transform: 
+            translate(30px, 30px)
+            rotate(-45deg)
+            scale(1.5, 1.8)
+            skew(50deg, 10deg);
+} */
+
+/* Transformaciones en 3D */
+/* .container__efects .elemento:hover{
+    transform: translate3d(100px, 50px, 200px);
+} */
+
+.container__efects .elemento:hover{
+    /* transform-origin: center; */
+    /* transform: rotateX(40deg); */
+    /* transform: rotateY(40deg); */
+    /* transform: rotateZ(40deg); */
+}
+.container__efects .elemento:hover{
+    /* transform: scale3d(1.5, 1.2, 1.9); */
+    transform: scaleX(1.5);
+}
+
+/* .scale{
+    font-size: 3rem;
+    transform: scale3d(1,2,3);
+} */
 /* Responsive */
 
 /*
