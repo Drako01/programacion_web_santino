@@ -8,6 +8,14 @@
     - [scale()](#scale)
     - [skew()](#skew)
     - [Transformaciones combinadas](#transformaciones-combinadas)
+    - [Transformaciones 3D](#transformaciones-3d)
+        - [perspective()](#perspective)
+        - [rotateX()](#rotatex)
+        - [rotateY()](#rotatey)
+        - [rotateZ()](#rotatez)
+        - [translate3d()](#translate3d)
+        - [scale3d()](#scale3d)
+        - [skew3d()](#skew3d)
 3. [Animaciones en CSS](#animaciones-en-css)
     - [Propiedad `transition`](#propiedad-transition)
     - [Propiedad `animation`](#propiedad-animation)
@@ -76,6 +84,86 @@ Podemos combinar múltiples transformaciones en una sola propiedad `transform`.
 ```
 
 Este ejemplo mueve, rota y escala el elemento en una sola declaración.
+
+### Transformaciones 3D
+Además de las transformaciones 2D, CSS nos permite aplicar transformaciones en un espacio tridimensional. Esto agrega una dimensión adicional de profundidad a nuestras transformaciones.
+
+#### perspective()
+La propiedad `perspective()` establece la distancia entre el plano Z y el usuario para permitir las transformaciones 3D.
+
+```css
+.container {
+    perspective: 800px;
+}
+```
+
+La perspectiva se aplica a los elementos hijos de `.container`, lo que les permite transformarse en un espacio 3D.
+
+#### rotateX()
+La función `rotateX()` rota un elemento alrededor del eje X.
+
+```css
+.element {
+    transform: rotateX(45deg);
+}
+```
+
+Este ejemplo rota el elemento 45 grados alrededor del eje X.
+
+#### rotateY()
+La función `rotateY()` rota un elemento alrededor del eje Y.
+
+```css
+.element {
+    transform: rotateY(45deg);
+}
+```
+
+Este ejemplo rota el elemento 45 grados alrededor del eje Y.
+
+#### rotateZ()
+La función `rotateZ()` rota un elemento alrededor del eje Z (similar a `rotate()` en 2D).
+
+```css
+.element {
+    transform: rotateZ(45deg);
+}
+```
+
+Este ejemplo rota el elemento 45 grados alrededor del eje Z.
+
+#### translate3d()
+La función `translate3d()` mueve un elemento en el espacio 3D.
+
+```css
+.element {
+    transform: translate3d(50px, 100px, 200px);
+}
+```
+
+Este ejemplo mueve el elemento 50 píxeles a la derecha, 100 píxeles hacia abajo y 200 píxeles hacia adelante en el espacio 3D.
+
+#### scale3d()
+La función `scale3d()` cambia el tamaño de un elemento en el espacio 3D.
+
+```css
+.element {
+    transform: scale3d(1.5, 2, 0.5);
+}
+```
+
+Este ejemplo escala el elemento en un 150% en el eje X, un 200% en el eje Y y un 50% en el eje Z.
+
+#### skew3d()
+Aunque `skew3d()` no existe como una función específica en CSS, las transformaciones 3D pueden combinarse para crear efectos de inclinación tridimensional utilizando `rotate` y `skew` en conjunto.
+
+```css
+.element {
+    transform: rotateX(30deg) skew(10deg, 5deg);
+}
+```
+
+Este ejemplo aplica una rotación en el eje X combinada con una inclinación en el plano 2D.
 
 ## Animaciones en CSS
 Las animaciones en CSS nos permiten cambiar gradualmente el estilo de un elemento desde un estado inicial a un estado final. Hay dos formas principales de aplicar animaciones: mediante la propiedad `transition` y mediante la propiedad `animation`.
@@ -179,10 +267,6 @@ En este ejemplo, el elemento se mueve y rota simultáneamente en un bucle infini
 ## Conclusión
 Las transformaciones y animaciones en CSS son herramientas poderosas que nos permiten crear interfaces web interactivas y dinámicas. Este tutorial cubre los conceptos básicos para comenzar a utilizar estas características en tus proyectos. Experimenta con diferentes combinaciones y propiedades para ver qué efectos puedes lograr.
 
-
-
 ## [Autor: Alejandro Di Stefano](https://github.com/Drako01)
-
-
 
 
