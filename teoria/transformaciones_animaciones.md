@@ -264,6 +264,92 @@ Podemos aplicar múltiples animaciones a un elemento separándolas por comas.
 
 En este ejemplo, el elemento se mueve y rota simultáneamente en un bucle infinito.
 
+
+## Teoría de Pseudo-elementos
+
+### ¿Qué son los Pseudo-elementos?
+
+Los pseudo-elementos en CSS son palabras clave que se añaden a los selectores para seleccionar una parte específica de un elemento. Los pseudo-elementos permiten aplicar estilos a una parte concreta de un elemento sin necesidad de modificar el HTML. Los dos pseudo-elementos más comunes son `::before` y `::after`.
+
+### Pseudo-elemento `::before`
+
+El pseudo-elemento `::before` se utiliza para insertar contenido antes del contenido real de un elemento. Este contenido no existe en el HTML, pero se puede generar y estilizar usando CSS.
+
+**Ejemplo:**
+
+```css
+/* Agrega un asterisco antes del contenido del párrafo */
+p::before {
+  content: "* ";
+  color: red;
+}
+```
+
+```html
+<p>Este es un párrafo.</p>
+```
+
+**Resultado:** 
+*Este es un párrafo.
+
+### Pseudo-elemento `::after`
+
+El pseudo-elemento `::after` se utiliza para insertar contenido después del contenido real de un elemento. Al igual que `::before`, este contenido no existe en el HTML, pero se puede generar y estilizar usando CSS.
+
+**Ejemplo:**
+
+```css
+/* Agrega un punto después del contenido del párrafo */
+p::after {
+  content: ".";
+  color: blue;
+}
+```
+
+```html
+<p>Este es un párrafo</p>
+```
+
+**Resultado:** 
+Este es un párrafo.
+
+### Usos Comunes de los Pseudo-elementos
+
+1. **Decoraciones:** Añadir iconos, imágenes o decoraciones adicionales a elementos sin necesidad de cambiar el HTML.
+2. **Citas:** Añadir comillas a elementos de bloque de citas.
+3. **Limpieza de Flotantes:** Utilizar `::after` para limpiar elementos flotantes.
+4. **Efectos de Estilo:** Crear efectos de estilo avanzados como bordes adicionales, sombras y más.
+
+### Ejemplo Práctico
+
+**CSS:**
+
+```css
+/* Añadir comillas a los elementos de bloque de citas */
+blockquote::before {
+  content: "“";
+  font-size: 2em;
+  color: gray;
+}
+
+blockquote::after {
+  content: "”";
+  font-size: 2em;
+  color: gray;
+}
+```
+
+**HTML:**
+
+```html
+<blockquote>La única forma de hacer un gran trabajo es amar lo que haces.</blockquote>
+```
+
+**Resultado:**
+
+“ La única forma de hacer un gran trabajo es amar lo que haces. ”
+
+
 ## Conclusión
 Las transformaciones y animaciones en CSS son herramientas poderosas que nos permiten crear interfaces web interactivas y dinámicas. Este tutorial cubre los conceptos básicos para comenzar a utilizar estas características en tus proyectos. Experimenta con diferentes combinaciones y propiedades para ver qué efectos puedes lograr.
 
