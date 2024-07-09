@@ -22,7 +22,8 @@
     - [Uso de `@keyframes`](#uso-de-keyframes)
     - [Propiedades de animación](#propiedades-de-animación)
     - [Animaciones múltiples](#animaciones-múltiples)
-4. [Conclusión](#conclusión)
+4. [Teoría de Pseudo-elementos](#teoría-de-pseudo-elementos)
+5. [Conclusión](#conclusión)
 
 ## Introducción
 CSS (Cascading Style Sheets) nos permite aplicar estilos a nuestras páginas web. Dos de las capacidades más poderosas de CSS son las transformaciones y las animaciones, que nos permiten manipular la apariencia de los elementos de manera dinámica y atractiva. En este tutorial, aprenderemos los conceptos básicos de transformaciones y animaciones en CSS, y cómo aplicarlos en nuestros proyectos.
