@@ -1,4 +1,4 @@
-# Ejercicios de Transformaciones y Animaciones en CSS
+## Ejercicios de Transformaciones y Animaciones en CSS
 
 ## Índice
 1. [Transformaciones Básicas](#transformaciones-básicas)
@@ -7,6 +7,7 @@
 4. [Animaciones Intermedias](#animaciones-intermedias)
 5. [Transformaciones Avanzadas](#transformaciones-avanzadas)
 6. [Animaciones Avanzadas](#animaciones-avanzadas)
+
 
 ## Transformaciones Básicas
 
@@ -141,43 +142,43 @@ Crea una animación que cambie el color del texto de un elemento.
 ### Ejercicio 41: Transformaciones de Imagen
 Aplica transformaciones a una imagen para crear efectos avanzados.
 
-### Ejercicio 42: Transformaciones Basadas en Eventos
-Aplica transformaciones a un elemento basado en eventos como clics o desplazamientos.
+### Ejercicio 42: Transformaciones Basadas en Eventos (HTML y CSS)
+Aplica transformaciones a un elemento basado en eventos como hover o focus.
 
 ### Ejercicio 43: Transformaciones en una Galería
 Crea una galería de imágenes con transformaciones aplicadas a cada imagen.
 
-### Ejercicio 44: Transformaciones con JavaScript
-Combina transformaciones CSS con JavaScript para crear efectos dinámicos.
-
-### Ejercicio 45: Transformaciones Responsivas
+### Ejercicio 44: Transformaciones Responsivas
 Aplica transformaciones que se adapten a diferentes tamaños de pantalla.
 
-### Ejercicio 46: Transformaciones Anidadas
+### Ejercicio 45: Transformaciones Anidadas
 Aplica transformaciones a elementos anidados para crear efectos complejos.
 
-### Ejercicio 47: Transformaciones con Variables CSS
+### Ejercicio 46: Transformaciones con Variables CSS
 Usa variables CSS para controlar transformaciones dinámicamente.
 
-### Ejercicio 48: Transformaciones con Pseudo-elementos
+### Ejercicio 47: Transformaciones con Pseudo-elementos
 Aplica transformaciones a pseudo-elementos como `::before` y `::after`.
 
-### Ejercicio 49: Transformaciones de Clip Path
+### Ejercicio 48: Transformaciones de Clip Path
 Usa `clip-path` junto con transformaciones para crear formas avanzadas.
 
-### Ejercicio 50: Transformaciones con Filtros
+### Ejercicio 49: Transformaciones con Filtros
 Combina transformaciones con filtros CSS para efectos avanzados.
+
+### Ejercicio 50: Transformaciones Basadas en Pseudoclases
+Usa pseudoclases como `:hover` y `:focus` para aplicar transformaciones.
 
 ## Animaciones Avanzadas
 
-### Ejercicio 51: Animaciones Basadas en Scroll
-Crea animaciones que se activen al hacer scroll en la página.
+### Ejercicio 51: Animaciones Basadas en Scroll (solo CSS)
+Crea animaciones que se activen al hacer scroll en la página usando `scroll-behavior` y `position` sticky.
 
 ### Ejercicio 52: Animaciones Sin Fisuras
 Crea una animación continua y sin fisuras para un fondo.
 
-### Ejercicio 53: Animaciones con Interactividad
-Crea animaciones que respondan a la interacción del usuario, como clics o desplazamientos.
+### Ejercicio 53: Animaciones con Interactividad (solo CSS)
+Crea animaciones que respondan a la interacción del usuario, como hover o focus.
 
 ### Ejercicio 54: Animaciones en Secuencia
 Crea una serie de animaciones que ocurran en secuencia.
@@ -188,18 +189,21 @@ Crea animaciones complejas para texto, como efectos de escritura.
 ### Ejercicio 56: Animaciones Responsivas
 Crea animaciones que se adapten a diferentes tamaños de pantalla.
 
-### Ejercicio 57: Animaciones con JavaScript
-Combina animaciones CSS con JavaScript para control avanzado.
-
-### Ejercicio 58: Animaciones en una Galería
+### Ejercicio 57: Animaciones en una Galería
 Crea una galería de imágenes con animaciones aplicadas a cada imagen.
 
-### Ejercicio 59: Animaciones de Fondo Avanzadas
+### Ejercicio 58: Animaciones de Fondo Avanzadas
 Crea animaciones complejas para el fondo de un contenedor.
 
-### Ejercicio 60: Animaciones con Pseudo-elementos
+### Ejercicio 59: Animaciones con Pseudo-elementos
 Aplica animaciones a pseudo-elementos como `::before` y `::after`.
 
+### Ejercicio 60: Animaciones con @keyframes y Pseudoclases
+Combina `@keyframes` y pseudoclases como `:hover` para crear animaciones avanzadas.
+
+---
+
+Estos ejemplos y explicaciones deben ayudarte a entender y utilizar los pseudo-elementos en tus proyectos de CSS. ¡Ahora puedes aplicarlos en los ejercicios de transformaciones y animaciones para crear efectos más complejos y estilizados!
 
 ---
 
