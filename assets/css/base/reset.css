@@ -14,5 +14,6 @@ li {
 
 iframe {
     width: var(--extra-large);
-    height: auto;
+    height: calc(var(--large) * 1.2);
+    margin: var(--thirt-size);
 }
