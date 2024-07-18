@@ -1,0 +1,23 @@
+/* Creacion de Variables */
+:root {
+    /* Colores */
+    --primary-color: #cfcfcf;
+    --secondary-color: #12505f;
+    --thirt-color: #f3f3f3;
+    --fourth-color: #4a4a4a99;
+    
+    /* Fuentes */
+    --primary-font: "Santino Regular";
+    --secondary-font: "Skylar";
+
+    /* Medidas */
+    --small: 320px;
+    --medium: 480px;
+    --large: 640px;    
+    --extra-large: 1080px;
+
+    /* Tamaños de Fuentes */
+    --first-size: .5rem;
+    --second-size: 1rem;
+    --thirt-size: 1.2rem;
+}

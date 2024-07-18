@@ -1,0 +1,17 @@
+.container {
+    width: var(--extra-large);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__text {
+    background-color: var(--thirt-color);
+    padding: calc(var(--thirt-size) * 2);
+    margin: calc(var(--thirt-size) * 2);
+    border-radius: var(--thirt-size);
+    box-shadow: var(--first-size) var(--first-size) var(--thirt-size) var( --fourth-color);
+}
