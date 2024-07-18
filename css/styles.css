@@ -597,13 +597,13 @@ a:active{
 */
 
 .contenedor__productos .card:nth-child(1){
-    background-color: #000764;
+    background-color: #79797e60;
 }
 .contenedor__productos .card:nth-child(2){
-    background-color: #686eb9;
+    background-color: #686db963;
 }
 .contenedor__productos .card:nth-child(3){
-    background-color: #7a09a7;
+    background-color: #7a09a76b;
 }
 
 
