@@ -13,10 +13,22 @@
     padding: calc(var(--thirt-size) * 2);
     margin: calc(var(--thirt-size) * 2);
     border-radius: var(--thirt-size);
-    box-shadow: var(--first-size) var(--first-size) var(--thirt-size) var( --fourth-color);
+    box-shadow: var(--first-size) var(--first-size) var(--thirt-size) var(--fourth-color);
+}
+
+.container__text p {
+    font-size: var(--thirt-size);
+    line-height: calc(var(--thirt-size) * 1.5);
 }
 
 .container__video {
     padding: calc(var(--thirt-size) * 2);
     margin: calc(var(--thirt-size) * 2);
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
