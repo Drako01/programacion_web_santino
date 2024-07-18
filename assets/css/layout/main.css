@@ -15,3 +15,8 @@
     border-radius: var(--thirt-size);
     box-shadow: var(--first-size) var(--first-size) var(--thirt-size) var( --fourth-color);
 }
+
+.container__video {
+    padding: calc(var(--thirt-size) * 2);
+    margin: calc(var(--thirt-size) * 2);
+}
