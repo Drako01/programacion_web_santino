@@ -17,3 +17,9 @@ iframe {
     height: calc(var(--large) * 1.2);
     margin: var(--thirt-size);
 }
+
+h1{
+    font-size: calc(var(--thirt-size)* 2);
+    font-family: var(--primary-font);
+    padding: var(--thirt-size) 0;
+}
