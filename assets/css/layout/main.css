@@ -1,13 +1,19 @@
 .container {
-    width: var(--extra-large);
+    max-width: var(--extra-large);
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
-
+.contenedor__productos {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .container__text {
     background-color: var(--thirt-color);
     padding: calc(var(--thirt-size) * 2);
