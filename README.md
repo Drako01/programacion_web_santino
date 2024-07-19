@@ -162,6 +162,25 @@ button:hover {
 ```
 
 
+
+En una Mac, puedes limpiar el caché del navegador usando los siguientes atajos de teclado, dependiendo del navegador que estés utilizando:
+
+### Safari:
+1. **Opción 1:** 
+   - Presiona `Command (⌘) + Option (⌥) + E` para vaciar el caché.
+2. **Opción 2:**
+   - Presiona `Command (⌘) + R` para recargar la página sin caché.
+
+### Google Chrome:
+- Presiona `Command (⌘) + Shift (⇧) + R` o `Shift (⇧) + F5`.
+
+### Firefox:
+- Presiona `Command (⌘) + Shift (⇧) + R` o `Shift (⇧) + F5`.
+
+Estos atajos recargan la página y limpian el caché del navegador, asegurando que obtengas la versión más actualizada del sitio web.
+
+
+
 ---
 
 

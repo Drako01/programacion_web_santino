@@ -6,7 +6,7 @@
     top: 0;   
 
     /* Uso de variables */
-    font-family: var(--primary-font);
+    font-family: var(--thirth-font);
     background-color: var(--secondary-color);
 }
 .navigation{

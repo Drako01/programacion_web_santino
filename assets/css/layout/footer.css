@@ -10,7 +10,7 @@
     align-items: center;
     
     /* Uso de variables */
-    font-family: var(--primary-font);
+    font-family: var(--thirth-font);
     background-color: var(--secondary-color);    
 }
 
