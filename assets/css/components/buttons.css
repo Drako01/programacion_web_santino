@@ -27,7 +27,7 @@
 } 
 
 .darkModeSwitch {
-    background:var(--primary-color);
+    background: var(--thirt-color);
     display: flex;
     position: relative;
     cursor: pointer;
@@ -37,7 +37,6 @@
     align-items: center;
     justify-content: space-between;
     width: 50px;
-    margin: 3rem;
 }
 .darkModeSwitch span {
     width: 1.4rem;
@@ -49,7 +48,7 @@
 }
 .darkModeSwitch::after {
     display: block;
-    background: var(--secondary-color);
+    background: var(--primary-color);
     width: 1.4rem;
     height: 1.4rem;
     position: absolute;
