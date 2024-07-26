@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos | Bienvenido</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/productos.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -27,13 +29,16 @@
                 <a href="grid.html">
                     <li>Newsletter</li>
                 </a>
+                <a href="transformaciones.html">
+                    <li>Transformaciones y Animaciones</li>
+                </a> 
             </ul>
         </nav>
     </header>
     <main>
         <!-- Aloja todo el contenido -->
         <h1>Productos</h1>
-        <div class="contenedor__productos">
+        <div class="contenedor__productos" data-aos="fade-up" data-aos-duration="2000">
             <div class="card">
                 <div class="card__image">
                     <img src="https://acdn.mitiendanube.com/stores/001/219/229/products/banana1-39d62a544fc16a2b8016025979095295-640-0.jpg"
@@ -175,7 +180,10 @@
     <footer class="footer">
         <!-- Tambien hace de navegacion / Informacion -->
         <p>Desarrollado por Santino | 2024</p>
-    </footer>
+    </footer>    
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
