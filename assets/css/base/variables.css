@@ -32,4 +32,6 @@ body.dark {
     --fourth-color: #b5b5b566;
     --black-color: #fff;
     --white-color: #000;
+
+    transition: background-color 0.5s ease, color 0.5s ease;
 }

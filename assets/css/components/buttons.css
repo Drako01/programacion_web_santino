@@ -45,7 +45,7 @@
     height: 1.4rem;
     line-height: 1.4rem;
     display: block;
-    color: #fff;
+    color: var(--white-color);
     background: none;
 }
 

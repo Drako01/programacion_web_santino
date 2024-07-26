@@ -19,6 +19,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: var(--white-color);
+    transition: background-color 0.5s ease, color 0.5s ease;
     border-radius: 1rem;
     box-shadow: .5rem .5rem 1rem var(--fourth-color);
     cursor: pointer;
