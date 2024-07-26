@@ -6,6 +6,7 @@
     --thirt-color: #f3f3f3;
     --fourth-color: #4a4a4a99;
     --black-color: #000;
+    --white-color: #fff;
     
     /* Fuentes */
     --primary-font: "Santino Regular";
@@ -30,4 +31,5 @@ body.dark {
     --thirt-color: #0c0c0c;
     --fourth-color: #b5b5b566;
     --black-color: #fff;
+    --white-color: #000;
 }

@@ -18,7 +18,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    
+    background-color: var(--white-color);
     border-radius: 1rem;
     box-shadow: .5rem .5rem 1rem var(--fourth-color);
     cursor: pointer;
@@ -34,6 +34,7 @@
 }
 .card__image img{
     width: calc(100% - 1rem);
+    border-radius: 1rem;
 }
 
 .card__texto {
