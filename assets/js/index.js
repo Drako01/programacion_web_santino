@@ -10,6 +10,7 @@ if (localStorage.getItem('Mode') === 'Dark') {
     switchButton.classList.remove('active');
 }
 
+
 // Agregar el evento click al botón
 switchButton.addEventListener('click', () => {
     document.body.classList.toggle('dark');
