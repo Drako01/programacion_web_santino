@@ -5,6 +5,7 @@
     --secondary-color: #12505f;
     --thirt-color: #f3f3f3;
     --fourth-color: #4a4a4a99;
+    --black-color: #000;
     
     /* Fuentes */
     --primary-font: "Santino Regular";
@@ -21,4 +22,12 @@
     --first-size: .5rem;
     --second-size: 1rem;
     --thirt-size: 1.2rem;
+}
+
+body.dark {
+    --primary-color: #303030;
+    --secondary-color: #eda0a0;
+    --thirt-color: #0c0c0c;
+    --fourth-color: #b5b5b566;
+    --black-color: #fff;
 }
