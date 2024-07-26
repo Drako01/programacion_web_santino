@@ -25,3 +25,48 @@
 .button__secondary:hover{
     box-shadow: none;
 } 
+
+.darkModeSwitch {
+    background:var(--primary-color);
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 1.2rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 50px;
+    margin: 3rem;
+}
+.darkModeSwitch span {
+    width: 1.4rem;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    display: block;
+    color: #fff;
+    background: none;
+}
+.darkModeSwitch::after {
+    display: block;
+    background: var(--secondary-color);
+    width: 1.4rem;
+    height: 1.4rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius:  1.2rem;
+    transition: all .5s ease;
+    box-shadow: 0 0 2px 2px var(--fourth-color);
+    content: "";
+}
+
+.darkModeSwitch.active {
+    background: #d0d0d0;
+}
+
+.darkModeSwitch.active::after {
+    left: unset;
+    right: 0;
+}
