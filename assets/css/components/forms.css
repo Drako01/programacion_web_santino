@@ -161,9 +161,3 @@ input[type="range"]::-ms-fill-upper {
     z-index: 0;
     margin: 0 .5rem;
 }
-
-.formulario-grupo p {
-    margin: .75rem 0;
-    color: var(--secondary-color);
-    font-family: var(--thirth-font);
-}
